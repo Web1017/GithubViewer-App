@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Github Viewer</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://bootswatch.com/3/superhero/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="css\bootstrap.min.css" >
+    <link rel="stylesheet" href="css\bootstrap-theme.min.css"> -->
+    <link rel="stylesheet" href="css\app.css">
+
+      <!-- =======================================================
+        Project Name: Github Viewer
+        Date: December 12 / 2017
+        Github: 
+        Author: Javid Niftaliyev
+    ======================================================= -->
+    
+  </head>
+  <body>
+    <div id="myNavbar" class="navbar navbar-inverse navbar" role="navigation">
+      <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand">Git Search</a>
+          </div>
+      </div>
+    </div>
+    
+      <div class="container">
+          <div class="searchcontainer">
+              <h1> Search for users from Github</h1>
+              <p class = "lead"> Enter Username of a Github user to view their profile</p>
+              <input type="text" id="searchUser" class="form-control" placeholder="Github User...">
+          </div>
+      <div id="profile"></div>
+      </div>
+
+ 
+    <!-- JavaScript, jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules\jquery\dist\jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="scripts\bootstrap.min.js"></script>
+    <script src="scripts\app.js"></script>
+  </body>
+</html>
